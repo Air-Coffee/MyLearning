@@ -1,0 +1,338 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\21499\Desktop\8051example\2024.7.9\20240709\test.uvproj
+Project File Date:  07/09/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling Delay.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?DELAY
+Program Size: data=9.0 xdata=0 code=40
+creating hex file from "test"...
+"test" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling Delay.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?DELAY
+Program Size: data=9.0 xdata=0 code=40
+creating hex file from "test"...
+"test" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=9.0 xdata=0 code=57
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling Delay.c...
+DELAY.C(18): error C202: 'P2_4': undefined identifier
+DELAY.C(18): error C202: 'P2_3': undefined identifier
+DELAY.C(18): error C202: 'P2_2': undefined identifier
+DELAY.C(19): error C202: 'P2_4': undefined identifier
+DELAY.C(19): error C202: 'P2_3': undefined identifier
+DELAY.C(19): error C202: 'P2_2': undefined identifier
+DELAY.C(20): error C202: 'P2_4': undefined identifier
+DELAY.C(20): error C202: 'P2_3': undefined identifier
+DELAY.C(20): error C202: 'P2_2': undefined identifier
+DELAY.C(21): error C202: 'P2_4': undefined identifier
+DELAY.C(21): error C202: 'P2_3': undefined identifier
+DELAY.C(21): error C202: 'P2_2': undefined identifier
+DELAY.C(22): error C202: 'P2_4': undefined identifier
+DELAY.C(22): error C202: 'P2_3': undefined identifier
+DELAY.C(22): error C202: 'P2_2': undefined identifier
+DELAY.C(23): error C202: 'P2_4': undefined identifier
+DELAY.C(23): error C202: 'P2_3': undefined identifier
+DELAY.C(23): error C202: 'P2_2': undefined identifier
+DELAY.C(24): error C202: 'P2_4': undefined identifier
+DELAY.C(24): error C202: 'P2_3': undefined identifier
+DELAY.C(24): error C202: 'P2_2': undefined identifier
+DELAY.C(25): error C202: 'P2_4': undefined identifier
+DELAY.C(25): error C202: 'P2_3': undefined identifier
+DELAY.C(25): error C202: 'P2_2': undefined identifier
+DELAY.C(27): error C202: 'P0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling Delay.c...
+DELAY.C(28): error C202: 'number': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling Delay.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED?DELAY
+Program Size: data=29.0 xdata=0 code=313
+creating hex file from "test"...
+"test" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED?MAIN
+Program Size: data=29.0 xdata=0 code=313
+creating hex file from "test"...
+"test" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=29.0 xdata=0 code=324
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=29.0 xdata=0 code=324
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=29.0 xdata=0 code=324
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=29.0 xdata=0 code=324
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=29.0 xdata=0 code=324
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=29.0 xdata=0 code=382
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=29.0 xdata=0 code=389
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(14): error C141: syntax error near 'Delay'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=31.0 xdata=0 code=358
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=31.0 xdata=0 code=358
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling 123.C...
+123.C(23): error C202: 'P2_4': undefined identifier
+123.C(23): error C202: 'P2_3': undefined identifier
+123.C(23): error C202: 'P2_2': undefined identifier
+123.C(24): error C202: 'P2_4': undefined identifier
+123.C(24): error C202: 'P2_3': undefined identifier
+123.C(24): error C202: 'P2_2': undefined identifier
+123.C(25): error C202: 'P2_4': undefined identifier
+123.C(25): error C202: 'P2_3': undefined identifier
+123.C(25): error C202: 'P2_2': undefined identifier
+123.C(26): error C202: 'P2_4': undefined identifier
+123.C(26): error C202: 'P2_3': undefined identifier
+123.C(26): error C202: 'P2_2': undefined identifier
+123.C(27): error C202: 'P2_4': undefined identifier
+123.C(27): error C202: 'P2_3': undefined identifier
+123.C(27): error C202: 'P2_2': undefined identifier
+123.C(28): error C202: 'P2_4': undefined identifier
+123.C(28): error C202: 'P2_3': undefined identifier
+123.C(28): error C202: 'P2_2': undefined identifier
+123.C(29): error C202: 'P2_4': undefined identifier
+123.C(29): error C202: 'P2_3': undefined identifier
+123.C(29): error C202: 'P2_2': undefined identifier
+123.C(30): error C202: 'P2_4': undefined identifier
+123.C(30): error C202: 'P2_3': undefined identifier
+123.C(30): error C202: 'P2_2': undefined identifier
+123.C(32): error C202: 'P0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling 123.C...
+linking...
+Program Size: data=33.0 xdata=0 code=372
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=31.0 xdata=0 code=358
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=31.0 xdata=0 code=358
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWCHAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSTRING?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSIGNEDNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWHEXNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWBINNUM?LCD1602
+Program Size: data=60.0 xdata=0 code=899
+creating hex file from "test"...
+"test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWCHAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSTRING?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSIGNEDNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWHEXNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWBINNUM?LCD1602
+Program Size: data=60.0 xdata=0 code=899
+creating hex file from "test"...
+"test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWCHAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSTRING?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSIGNEDNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWHEXNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWBINNUM?LCD1602
+Program Size: data=60.0 xdata=0 code=899
+creating hex file from "test"...
+"test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWCHAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSTRING?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSIGNEDNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWHEXNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWBINNUM?LCD1602
+Program Size: data=60.0 xdata=0 code=899
+creating hex file from "test"...
+"test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWCHAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSTRING?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSIGNEDNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWHEXNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWBINNUM?LCD1602
+Program Size: data=60.0 xdata=0 code=899
+creating hex file from "test"...
+"test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSTRING?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSIGNEDNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWHEXNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWBINNUM?LCD1602
+Program Size: data=38.0 xdata=0 code=570
+creating hex file from "test"...
+"test" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSTRING?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSIGNEDNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWHEXNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWBINNUM?LCD1602
+Program Size: data=38.0 xdata=0 code=570
+creating hex file from "test"...
+"test" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(8): warning C206: 'LCD_ShowNumber': missing function-prototype
+MAIN.C(8): error C267: 'LCD_ShowNumber': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(8): warning C206: 'LCD_ShowNumber': missing function-prototype
+MAIN.C(8): error C267: 'LCD_ShowNumber': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWSIGNEDNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWHEXNUM?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SHOWBINNUM?LCD1602
+Program Size: data=38.0 xdata=0 code=589
+creating hex file from "test"...
+"test" - 0 Error(s), 4 Warning(s).

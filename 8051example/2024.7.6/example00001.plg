@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\21499\Desktop\8051example\2024.7.6\example00001.uvproj
+Project File Date:  07/07/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(93): warning C214: 'Argument': conversion: pointer to non-pointer
+linking...
+Program Size: data=11.0 xdata=0 code=143
+creating hex file from "example00001"...
+"example00001" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=143
+creating hex file from "example00001"...
+"example00001" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=143
+creating hex file from "example00001"...
+"example00001" - 0 Error(s), 0 Warning(s).

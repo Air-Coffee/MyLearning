@@ -1,0 +1,74 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        07/07/2024  18:31:27  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE main02.obj TO 2024070703 RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  main02.obj (MAIN02)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  2024070703 (MAIN02)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     000CH     UNIT         ?C_C51STARTUP
+            CODE    000FH     000BH     UNIT         ?PR?MAIN?MAIN02
+
+
+
+OVERLAY MAP OF MODULE:   2024070703 (MAIN02)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?MAIN02
+
+
+
+SYMBOL TABLE OF MODULE:  2024070703 (MAIN02)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        MAIN02
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  B:0080H.0       PUBLIC        P0_0
+  B:00B0H.1       PUBLIC        P3_1
+  C:000FH         PUBLIC        main
+  -------         PROC          MAIN
+  C:000FH         LINE#         2
+  C:000FH         LINE#         3
+  C:000FH         LINE#         6
+  C:000FH         LINE#         7
+  C:000FH         LINE#         8
+  C:0012H         LINE#         9
+  C:0012H         LINE#         10
+BL51 BANKED LINKER/LOCATER V6.22                                                      07/07/2024  18:31:27  PAGE 2
+
+
+  C:0014H         LINE#         11
+  C:0016H         LINE#         13
+  C:0016H         LINE#         14
+  C:0018H         LINE#         15
+  C:0018H         LINE#         16
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        MAIN02
+
+Program Size: data=9.0 xdata=0 code=26
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
